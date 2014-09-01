@@ -1,0 +1,34 @@
+{
+  "name": "blitzkrieg",
+  "version": "1.0.0",
+  "description": "Middleware to provide an authorized domain for blitz.io",
+  "keywords": [
+    "blitz",
+    "express",
+    "middleware",
+    "load",
+    "test",
+    "production"
+  ],
+  "repository": "hunterloftis/blitzkrieg",
+  "homepage": "https://github.com/hunterloftis/blitzkrieg",
+  "bugs": "https://github.com/hunterloftis/blitzkrieg/issues",
+  "main": "blitzkrieg.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">= 0.10.x"
+  },
+  "author": "Hunter Loftis <hunter@hunterloftis.com>",
+  "license": "MIT",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "express": "^4.8.7",
+    "mocha": "^1.21.4",
+    "supertest": "^0.13.0"
+  }
+}
